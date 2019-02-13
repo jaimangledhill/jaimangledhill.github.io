@@ -1,0 +1,268 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UN Goals Step 3</title>
+
+<style>
+	body {
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+	.flip-box {
+	  background-color: transparent;
+	  width: 300px;
+	  height: 300px;
+	  perspective: 1000px;
+	}
+	.flip-box-inner {
+	  position: relative;
+	  width: 100%;
+	  height: 100%;
+	  text-align: center;
+	  transition: transform 0.8s;
+	  transform-style: preserve-3d;
+	}
+	.flip-box:hover .flip-box-inner {
+	  transform: rotateY(180deg);
+	}
+	.flip-box-front, .flip-box-back {
+	  position: absolute;
+	  width: 100%;
+	  height: 100%;
+	  backface-visibility: hidden;
+	}
+	.flip-box-front {
+	  background-color: #bbb;
+	  color: black;
+	}
+	.flip-box-back {
+	  background-color: #EB1C2D;
+	  color: white;
+	  transform: rotateY(180deg);
+	}
+	.home {
+		position: fixed;
+		top: 10px;
+		right: 10px;
+		z-index: 2000;
+	}
+	.btn {
+		background-color: lightgrey;
+		border-radius: 20px;
+		font-size: 20px;
+	}
+
+</style>
+
+
+</head>
+<body>
+
+
+<div class="flex-container">
+	<div class="flip-box">
+	  <div class="flip-box-inner">
+	    <div class="flip-box-front">
+	     <img src="images/E_SDG goals_icons-individual-rgb-01.png" alt="Avatar" style="width:300px; height:300px;"/>
+	    </div>
+	    <div class="flip-box-back">
+	      <h3>No Poverty</h3>
+	      <p> What are some steps we can take to achieve No Poverty?</p>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="flip-box">
+	  <div class="flip-box-inner">
+	    <div class="flip-box-front">
+	     <img src="images/E_SDG goals_icons-individual-rgb-02.png" alt="Avatar" style="width:300px; height:300px;"/>
+	    </div>
+	    <div class="flip-box-back" style="background-color: #d3a029">
+	      <h3>Zero Hunger</h3>
+	      <p> What are some steps we can take to achieve Zero Hunger?</p>
+	    </div>
+	  </div>
+	</div>
+	<div class="flip-box">
+	  <div class="flip-box-inner">
+	    <div class="flip-box-front">
+	     <img src="images/E_SDG goals_icons-individual-rgb-03.png" alt="Avatar" style="width:300px; height:300px;"/>
+	    </div>
+	    <div class="flip-box-back" style="background-color: #279b48">
+	      <h3>Good Health and Well Being</h3>
+	      <p> What are some steps we can take to achieve Good Health and Well Being?</p>
+	    </div>
+	  </div>
+	</div>
+	<div class="flip-box">
+	  <div class="flip-box-inner">
+	    <div class="flip-box-front">
+	     <img src="images/E_SDG goals_icons-individual-rgb-04.png" alt="Avatar" style="width:300px; height:300px;"/>
+	    </div>
+	    <div class="flip-box-back" style="background-color: #c31f33">
+	      <h3>Quality Education</h3>
+	      <p> What are some steps we can take to achieve Quality Education?</p>
+	    </div>
+	  </div>
+	</div>
+	</div>
+	<div class="flip-box">
+	  <div class="flip-box-inner">
+	    <div class="flip-box-front">
+	     <img src="images/E_SDG goals_icons-individual-rgb-05.png" alt="Avatar" style="width:300px; height:300px;"/>
+	    </div>
+	    <div class="flip-box-back" style="background-color: #ef402b">
+	      <h3>Gender Equality</h3>
+	      <p> What are some steps we can take to achieve gender equality?</p>
+	    </div>
+	  </div>
+	</div>
+	</div>
+	<div class="flip-box">
+	  <div class="flip-box-inner">
+	    <div class="flip-box-front">
+	     <img src="images/E_SDG goals_icons-individual-rgb-06.png" alt="Avatar" style="width:300px; height:300px;"/>
+	    </div>
+	    <div class="flip-box-back" style="background-color: #00aed9">
+	      <h3>Clean Water and Sanitation</h3>
+	      <p> What are some steps we can take to achieve Clean Water and Sanitation?</p>
+	    </div>
+	  </div>
+	</div>
+	</div>
+	</div>
+	<div class="flip-box">
+	  <div class="flip-box-inner">
+	    <div class="flip-box-front">
+	     <img src="images/E_SDG goals_icons-individual-rgb-07.png" alt="Avatar" style="width:300px; height:300px;"/>
+	    </div>
+	    <div class="flip-box-back" style="background-color: #fdb713">
+	      <h3>Affordable and Clean Energy</h3>
+	      <p> What are some steps we can take to achieve Affordable and Clean Energy?</p>
+	    </div>
+	  </div>
+	</div>
+	<div class="flip-box">
+	  <div class="flip-box-inner">
+	    <div class="flip-box-front">
+	     <img src="images/E_SDG goals_icons-individual-rgb-08.png" alt="Avatar" style="width:300px; height:300px;"/>
+	    </div>
+	    <div class="flip-box-back" style="background-color: #8f1838">
+	      <h3>Decent Work and Economic Growth</h3>
+	      <p> What are some steps we can take to achieve Decent Work and Economic Growth?</p>
+	    </div>
+	  </div>
+	</div>
+	</div>
+	<div class="flip-box">
+	  <div class="flip-box-inner">
+	    <div class="flip-box-front">
+	     <img src="images/E_SDG goals_icons-individual-rgb-09.png" alt="Avatar" style="width:300px; height:300px;"/>
+	    </div>
+	    <div class="flip-box-back" style="background-color: #f36d25">
+	      <h3>Industry, Inovation and Infastructure</h3>
+	      <p> What are some steps we can take to achieve Industry, Inovation and Infastructure?</p>
+	    </div>
+	  </div>
+	</div>
+	</div>
+	<div class="flip-box">
+	  <div class="flip-box-inner">
+	    <div class="flip-box-front">
+	     <img src="images/E_SDG goals_icons-individual-rgb-10.png" alt="Avatar" style="width:300px; height:300px;"/>
+	    </div>
+	    <div class="flip-box-back" style="background-color: #e11484">
+	      <h3>Reduced Inequalities</h3>
+	      <p> What are some steps we can take to achieve Reduced Inequalities?</p>
+	    </div>
+	  </div>
+	</div>
+	</div>
+	<div class="flip-box">
+	  <div class="flip-box-inner">
+	    <div class="flip-box-front">
+	     <img src="images/E_SDG goals_icons-individual-rgb-11.png" alt="Avatar" style="width:300px; height:300px;"/>
+	    </div>
+	    <div class="flip-box-back" style="background-color: #f99d26">
+	      <h3>Sustainable Cities and Communities</h3>
+	      <p> What are some steps we can take to achieve Sustainable Cities and Communities?</p>
+	    </div>
+	  </div>
+	</div>
+	</div>
+	<div class="flip-box">
+	  <div class="flip-box-inner">
+	    <div class="flip-box-front">
+	     <img src="images/E_SDG goals_icons-individual-rgb-12.png" alt="Avatar" style="width:300px; height:300px;"/>
+	    </div>
+	    <div class="flip-box-back" style="background-color: #cf8d2a">
+	      <h3>Responsible Consumption and Production</h3>
+	      <p> What are some steps we can take to achieve Responsible Consumption and Production?</p>
+	    </div>
+	  </div>
+	</div>
+	</div>
+	<div class="flip-box">
+	  <div class="flip-box-inner">
+	    <div class="flip-box-front">
+	     <img src="images/E_SDG goals_icons-individual-rgb-13.png" alt="Avatar" style="width:300px; height:300px;"/>
+	    </div>
+	    <div class="flip-box-back" style="background-color: #48773e">
+	      <h3>Climate Action</h3>
+	      <p> What are some steps we can take to achieve Climate Action?</p>
+	    </div>
+	  </div>
+	</div>
+	</div>
+	</div>
+	<div class="flip-box">
+	  <div class="flip-box-inner">
+	    <div class="flip-box-front">
+	     <img src="images/E_SDG goals_icons-individual-rgb-14.png" alt="Avatar" style="width:300px; height:300px;"/>
+	    </div>
+	    <div class="flip-box-back" style="background-color: #007dbc">
+	      <h3>Life Below Water</h3>
+	      <p> What are some steps we can take to achieve Life Below Water?</p>
+	    </div>
+	  </div>
+	</div>
+	</div>
+	<div class="flip-box">
+	  <div class="flip-box-inner">
+	    <div class="flip-box-front">
+	     <img src="images/E_SDG goals_icons-individual-rgb-15.png" alt="Avatar" style="width:300px; height:300px;"/>
+	    </div>
+	    <div class="flip-box-back" style="background-color: #3eb049">
+	      <h3>Life On Land</h3>
+	      <p> What are some steps we can take to achieve better quality of Life On Land?</p>
+	    </div>
+	  </div>
+	</div>
+	</div>
+	<div class="flip-box">
+	  <div class="flip-box-inner">
+	    <div class="flip-box-front">
+	     <img src="images/E_SDG goals_icons-individual-rgb-16.png" alt="Avatar" style="width:300px; height:300px;"/>
+	    </div>
+	    <div class="flip-box-back" style="background-color: #d">
+	      <h3>Peace, Justice and Strong Insitutions</h3>
+	      <p> What are some steps we can take to achieve Peace, Justice and Strong Insitutions?</p>
+	    </div>
+	  </div>
+	</div>
+	</div>
+	<div class="flip-box">
+	  <div class="flip-box-inner">
+	    <div class="flip-box-front">
+	     <img src="images/E_SDG goals_icons-individual-rgb-17.png" alt="Avatar" style="width:300px; height:300px;"/>
+	    </div>
+	    <div class="flip-box-back" style="background-color: #183668">
+	      <h3>Partnerships for the Goals</h3>
+	      <p> What are some steps we can take to achieve Partnerships for the Goals?</p>
+	    </div>
+	  </div>
+	</div>
+</div>
+
+</body>
+</html>
