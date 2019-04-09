@@ -1,0 +1,17 @@
+  <div class="container">
+    <h1 class="header">Night Mode</h1>
+    <div class="paragraph">
+      <p>Night Shift might help strain the eyes less if the surrounding area is dark.</p>
+
+      <p>Your Google Drive storage is full. You have exceeded your storage plan: this means that your documents, contacts and device
+        data are no longer being backed up to Drive and your photos and videos are not being uploaded securly saved.
+        Google Drive and Google-enabled apps are also not being updated across your devices.</p>
+
+      <p> To continue using these  services, you need to upgrade your  storage plan or reduce the amount of storage you are using.</p>
+
+      <button class="nightModeButton">
+        <img class="button-image" src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c399.png">Night Mode
+      </button>
+    </div>
+
+  </div>
