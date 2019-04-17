@@ -72,17 +72,17 @@ function showLimit(limit) {
     mydiv.innerHTML = data[i].Value
 }
 
+staticUrl = 'https://raw.githubusercontent.com/jaimangledhill/jaimangledhill.github.io/master/UN%20Website/data.json';
 
 function searchValue(){
-    let input = document.getElementById("txtAutoComplete").value;
+    console.log("Function Called")
+    input = document.getElementById("txtAutoComplete").value;
+    console.log(input);
 
-    for(i = 0; i < data.length; i++){
-        console.log(data[i].dims.country);
-        if(input == data[i].dims.country){
-            console.log("Yes");
-        }
-    }
-
+    $.getJSON('https://raw.githubusercontent.com/jaimangledhill/jaimangledhill.github.io/master/UN%20Website/data.json', function(data) {
+        console.log("hello");
+        console.log(data);
+    });
 
 }
 
